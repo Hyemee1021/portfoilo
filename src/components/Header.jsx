@@ -105,10 +105,10 @@ export const Header = () => {
         </div>
         <div className="hidden sm:block">
           <ul className="flex gap-5 items-center ">
-            <li className="cursor-pointer">Home</li>
-            <li className="cursor-pointer">About</li>
-            <li className="cursor-pointer">Projects</li>
-            <li className="cursor-pointer">Contact</li>
+            <li className="cursor-pointer hover:text-purple-700">Home</li>
+            <li className="cursor-pointer hover:text-purple-700">About</li>
+            <li className="cursor-pointer hover:text-purple-700">Projects</li>
+            <li className="cursor-pointer hover:text-purple-700">Contact</li>
           </ul>
         </div>
         <div className="sm:hidden">
@@ -132,10 +132,12 @@ export const Header = () => {
                 light ? "bg-slate-50 " : "bg-gray-900 text-white"
               }`}
             >
-              <li className="cursor-pointer">Home</li>
-              <li className="cursor-pointer">About</li>
-              <li className="cursor-pointer">Projects</li>
-              <li className="cursor-pointer">Contact</li>
+              <li className="cursor-pointer hover:text-purple-700">Home</li>
+              <li className="cursor-pointer hover:text-purple-700">About</li>
+              <li className="cursor-pointer  hover:text-purple-700">
+                Projects
+              </li>
+              <li className="cursor-pointer hover:text-purple-700">Contact</li>
             </ul>
           </div>
         )}
